@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		876E28C11BD821A200DB8B10 /* Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876E28C01BD821A200DB8B10 /* Calender.swift */; settings = {ASSET_TAGS = (); }; };
+		876E28C31BDD9D9600DB8B10 /* Taskview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876E28C21BDD9D9600DB8B10 /* Taskview.swift */; settings = {ASSET_TAGS = (); }; };
+		876E28C51BDE985300DB8B10 /* TaskViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876E28C41BDE985300DB8B10 /* TaskViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		87864C411BDEAAF2002F01E2 /* SingleTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87864C401BDEAAF2002F01E2 /* SingleTaskView.swift */; settings = {ASSET_TAGS = (); }; };
 		87D7D84D1BD5C2C5003AABF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D7D84C1BD5C2C5003AABF1 /* AppDelegate.swift */; };
 		87D7D84F1BD5C2C5003AABF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D7D84E1BD5C2C5003AABF1 /* ViewController.swift */; };
 		87D7D8521BD5C2C5003AABF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D7D8501BD5C2C5003AABF1 /* Main.storyboard */; };
@@ -14,6 +18,10 @@
 		87D7D8571BD5C2C5003AABF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D7D8551BD5C2C5003AABF1 /* LaunchScreen.storyboard */; };
 		87D7D8621BD5C2C5003AABF1 /* Calender2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D7D8611BD5C2C5003AABF1 /* Calender2Tests.swift */; };
 		87D7D86D1BD5C2C5003AABF1 /* Calender2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D7D86C1BD5C2C5003AABF1 /* Calender2UITests.swift */; };
+		87D7D87B1BD6D309003AABF1 /* DayCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D7D87A1BD6D309003AABF1 /* DayCellTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		87D7D87D1BD6DC80003AABF1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D7D87C1BD6DC80003AABF1 /* Task.swift */; settings = {ASSET_TAGS = (); }; };
+		87D7D8811BD6EA56003AABF1 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D7D8801BD6EA56003AABF1 /* TaskViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		87D7D8831BD743AD003AABF1 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D7D8821BD743AD003AABF1 /* Day.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		876E28C01BD821A200DB8B10 /* Calender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calender.swift; sourceTree = "<group>"; };
+		876E28C21BDD9D9600DB8B10 /* Taskview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taskview.swift; sourceTree = "<group>"; };
+		876E28C41BDE985300DB8B10 /* TaskViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewCell.swift; sourceTree = "<group>"; };
+		87864C401BDEAAF2002F01E2 /* SingleTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTaskView.swift; sourceTree = "<group>"; };
 		87D7D8491BD5C2C5003AABF1 /* Calender2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calender2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D7D84C1BD5C2C5003AABF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87D7D84E1BD5C2C5003AABF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,10 @@
 		87D7D8681BD5C2C5003AABF1 /* Calender2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calender2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D7D86C1BD5C2C5003AABF1 /* Calender2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calender2UITests.swift; sourceTree = "<group>"; };
 		87D7D86E1BD5C2C5003AABF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87D7D87A1BD6D309003AABF1 /* DayCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCellTableViewCell.swift; sourceTree = "<group>"; };
+		87D7D87C1BD6DC80003AABF1 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		87D7D8801BD6EA56003AABF1 /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		87D7D8821BD743AD003AABF1 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +115,15 @@
 			children = (
 				87D7D84C1BD5C2C5003AABF1 /* AppDelegate.swift */,
 				87D7D84E1BD5C2C5003AABF1 /* ViewController.swift */,
+				876E28C01BD821A200DB8B10 /* Calender.swift */,
+				87D7D8821BD743AD003AABF1 /* Day.swift */,
+				87D7D8801BD6EA56003AABF1 /* TaskViewController.swift */,
 				87D7D8501BD5C2C5003AABF1 /* Main.storyboard */,
+				87864C401BDEAAF2002F01E2 /* SingleTaskView.swift */,
+				876E28C21BDD9D9600DB8B10 /* Taskview.swift */,
+				87D7D87C1BD6DC80003AABF1 /* Task.swift */,
+				87D7D87A1BD6D309003AABF1 /* DayCellTableViewCell.swift */,
+				876E28C41BDE985300DB8B10 /* TaskViewCell.swift */,
 				87D7D8531BD5C2C5003AABF1 /* Assets.xcassets */,
 				87D7D8551BD5C2C5003AABF1 /* LaunchScreen.storyboard */,
 				87D7D8581BD5C2C5003AABF1 /* Info.plist */,
@@ -255,8 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D7D87D1BD6DC80003AABF1 /* Task.swift in Sources */,
+				876E28C11BD821A200DB8B10 /* Calender.swift in Sources */,
 				87D7D84F1BD5C2C5003AABF1 /* ViewController.swift in Sources */,
+				87864C411BDEAAF2002F01E2 /* SingleTaskView.swift in Sources */,
+				87D7D8831BD743AD003AABF1 /* Day.swift in Sources */,
+				87D7D8811BD6EA56003AABF1 /* TaskViewController.swift in Sources */,
+				87D7D87B1BD6D309003AABF1 /* DayCellTableViewCell.swift in Sources */,
 				87D7D84D1BD5C2C5003AABF1 /* AppDelegate.swift in Sources */,
+				876E28C51BDE985300DB8B10 /* TaskViewCell.swift in Sources */,
+				876E28C31BDD9D9600DB8B10 /* Taskview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +513,7 @@
 				87D7D8731BD5C2C5003AABF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87D7D8741BD5C2C5003AABF1 /* Build configuration list for PBXNativeTarget "Calender2Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +522,7 @@
 				87D7D8761BD5C2C5003AABF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87D7D8771BD5C2C5003AABF1 /* Build configuration list for PBXNativeTarget "Calender2UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +531,7 @@
 				87D7D8791BD5C2C5003AABF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
